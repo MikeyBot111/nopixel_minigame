@@ -1,0 +1,213 @@
+/*!
+ * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot);
+    src: url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff2) format("woff2"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff) format("woff"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.ttf) format("truetype"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: 900
+}
+
+/*!
+ * Game
+ */
+
+body{
+    background-color: #15181d;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+.description{
+    text-align: center;
+    color: gray;
+}
+.description sub{
+    font-style: italic;
+}
+
+.streaks {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #028000;
+    padding: 12px;
+    border-radius: 18px;
+}
+.best_time,
+.time {
+    display: inline-block;
+    width: 100px;
+}
+.streaks .fa {
+    padding: 0 10px;
+}
+.options{
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+.option{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 3vh;
+    background-color: #20282e;
+    padding: 10px 20px;
+    margin: 0 auto 10px;
+    border-radius: 6px;
+}
+.minigame{
+    margin: 0 auto 20px;
+    width: 540px;
+    min-width: 540px;
+    max-width: 540px;
+    height: 240px;
+    min-height: 240px;
+    max-height: 240px;
+    background-color: #232832;
+}
+.splash{
+    display: inline-block;
+    width: 100%;
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    user-select: none;
+}
+.restart{
+    text-align: center;
+}
+.btn_again {
+    padding: 6px 15px;
+    font-weight: bold;
+}
+.credits{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+.credits a{
+    color: #ccc;
+}
+.credits b{
+    color: white;
+}
+.credits .fas{
+    color: red;
+}
+.credits .donate{
+    margin: 20px 0;
+}
+.credits .coin{
+    font-weight: bold;
+    color: white;
+}
+.credits .wallet{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+
+.game {
+    height: 100%;
+}
+
+.game .time-bar {
+    background-color: #ac561d;
+    height: 10px;
+}  
+
+.game .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95.5%;
+}
+
+.game .gamestreak{
+    color: #d4d4d4;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 8%;
+}
+
+.game .current_word {
+    background-color: #303642;
+    color: #d4d4d4;
+    width: 80%;
+    text-align: center;
+    padding: 5% 2%;
+    margin: 0;
+    font-size: 4vh;
+    border-radius: 5px;
+}
+
+.game .buttons {
+    display: flex;
+    gap: 1%;
+    width: 84%;
+    height: 13%;
+    margin-top: 1%;
+}
+
+.game .seen {
+    background-color: #612a70;
+    color: #a849c2;
+    font-weight: 800;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+}
+
+.game .seen:hover {
+    background-color: #843999;
+    color: #be54db;
+}  
+
+.game .new {
+    background-color: #295e32;
+    color: #47a356;
+    font-weight: 800;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+}   
+
+.game .new:hover {
+    background-color: #388044;
+    color: #54c467;
+}  
+
+
+
+.hidden {
+    display: none;
+}
